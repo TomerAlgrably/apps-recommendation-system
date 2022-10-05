@@ -1,0 +1,16 @@
+{
+  "name": "aura_template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start-dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.8.2"
+  }
+}
